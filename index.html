@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>FCC Style Guide</title>
     <!-- ======== Links to CSS ========= -->
         <!-- Resets CSS -->
         <link rel="stylesheet" href="normalize.css">
@@ -14,6 +14,9 @@
         <!-- Adds Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+        
         <!-- Adds Icons -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- ======== End Links to CSS ======== -->
@@ -61,23 +64,32 @@
             <!--=========== Guidelines Section ============ -->
             <article id="Guidelines">
                 <!--Header-->
-                <h1 class="display-4">
+                <h1 class="section-header" style="text-align:center">
                     Federal Communications Commission Style Guide
                 </h1>
                 <!--Copy-->
-                <p>The User Interface Style Guide is here to help maintain your brand across multiple platforms (desktop, tablet, mobile, ios, android, etc) and across multiple markets. Constant iteration requires both an efficient workflow and a well defined collection of core UI elements that can be assembled quickly. Reinventing the wheel is out and standards are in.</p>  
+                <p>The Federal Communications Commission Style Guide is here to help maintain the agency brand 
+                    across multiple platforms (desktop, tablet, mobile, ios, android, 
+                    etc) and across multiple markets. Constant iteration requires both an 
+                    efficient workflow and a well defined collection of core UI elements 
+                    that can be assembled quickly. Reinventing the wheel is out and 
+                    standards are in.</p>  
             </article>
             <hr>
             <!--=========== End Guidelines Section ============ -->
 
             <!--=========== Logo Section ============ -->
             <article id="Logo" class="margin">
-                <h1>
-                    Logo
+                <h1 class="section-header">
+                    Logo Rules
                 </h1>
-                <div class="row-container-no-wrap ">
+                <div class="row-container-no-wrap">
                     <img src="images/logo/fcc-logo_dark-blue.png" class="section-logo">
                     <img src="images/logo/fcc-logo_white-on-dark-blue.png" class="section-logo">
+                    <img src="images/logo/fcc-logo_light-blue.png" class="section-logo">
+                    <img src="images/logo/fcc-logo_teal.png" class="section-logo">
+                    <img src="images/logo/fcc-logo_white-on-black.png" class="section-logo">
+
                 </div>
             </article>
             <hr>
@@ -85,15 +97,15 @@
 
             <!--=========== Typography Section ============ -->
             <article id="Typography">
-                <h1>
+                <h1 class="section-header">
                     Typography
                 </h1>
                 <div class="type-faces">
-                    <p> The FCC uses the following two typefaces:</p>
-                    <h2 class="type-faces-02">
+                    <p class="ital"> The Federal Communications Commission uses the following two typefaces:</p>
+                    <h2 class="type-faces-02" style="font-weight: bold">
                         Roboto
                     </h2>
-                    <p class="lead">Roboto is to be used for the Body. Roboto has a dual nature. 
+                    <p>Roboto is to be used for the Body Copy and has a dual nature. 
                         It has a mechanical skeleton and the forms are largely geometric. 
                         At the same time, the font features friendly and open curves. 
                         While some grotesks distort their letterforms to force a rigid 
@@ -105,10 +117,27 @@
                         Condensed family and the Roboto Slab family.
 
                         </p>
+                        <br>
+                        <p class="type-faces-02" style="text-align: center">
+                                AaBbCc
+                                <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                                <br>abcdefghijklmnopqrstuvwxyz
+                                <br>0123456789
+                                <br>~%!@#$%^&*-_=+
+                                <br>[]{}()|\/<>‘’”,.;:?</p>
+                        <p class="type-faces-02" style="padding-left: 50px" style="padding-right: 70px" 
+                            style="padding-top: 10px" style="font-size: 11pt">Lorem ipsum dolor 
+                            sit amet, vel accumsan liberavisse ex, ea nec elaboraret 
+                            interpretaris, sed diceret concludaturque no. Verear habemus 
+                            sea ut. His nibh scripta in. In sea vocibus facilisis. Sed 
+                            ea cibo eripuit vituperata, pri eius debitis ne. Eos et wisi 
+                            legimus, vel cu paulo doctus vidisse. Iudico dicant nostrum 
+                            nec an, in eos harum vitae, te quod vero salutandi nam.
+                            </p>
                     <h2 class="type-faces-01">
                         Nanum Gothic
                     </h2>
-                    <p class="lead">Nanum Gothic is to be used for Headers. It is a 
+                    <p>     Nanum Gothic is to be used for Headers. It is a 
                             contemporary sans-serif typeface with a warm touch, and it 
                             is expertly hinted for screen use. It is part of the Nanum 
                             fonts (나눔글꼴) – a set of high quality Unicode fonts designed 
@@ -116,6 +145,7 @@
                             support Latin. Designed by Sandoll Communications (산돌 커뮤니케이션) 
                             and Fontrix (폰트릭스,) and published by Naver (네이버.)
                     </p>
+
                 </div>
                 <div class="type-styles">
                     <h1>
@@ -141,7 +171,7 @@
                 <br>
                 <section class="code">
                     <div>
-                    <h4>CSS</h4>
+                    <h4 class="section-header">CSS</h4>
                         <pre>
 font-family: Verdana, Geneva, Tahoma, sans-serif; 
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -154,7 +184,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
             <!--=========== Color Section ============ -->
             <article id="Color" class="center">
-                    <h1>
+                    <h1 class="section-header">
                         Colors
                     </h1>
                     <!-- Primary Colors-->
@@ -257,7 +287,7 @@ button:hover {
             
             <!--=========== Button Section ============ -->
             <article id="Buttons" class="button">
-                    <h1>
+                    <h1 class="section-header">
                         Buttons
                     </h1>
                     <!-- Primary Buttons-->
@@ -305,7 +335,7 @@ button:hover {
 
             <!--=========== Icon Section ============ -->
             <article id="Icons">
-                <h1>
+                <h1 class="section-header">
                     Icons
                 </h1>
                 <div class="row-container usps-icons">
@@ -324,7 +354,7 @@ button:hover {
 
             <!--=========== Imagery Section ============ -->
             <article id="Imagery">
-                    <h1>
+                    <h1 class="section-header">
                         Imagery
                     </h1>
                     <div class="row-container-around">
@@ -339,7 +369,7 @@ button:hover {
 
             <!--=========== Footer Section ============ -->
             <article id="Footer" class="social-icons">
-                <h1>
+                <h1 class="section-header">
                     Contact Me
                 </h1>
                 <div class="row-container-around">
