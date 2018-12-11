@@ -11,6 +11,9 @@ h3 {
     font-family: Arial, Helvetica, sans-serif
 }
 
+a {
+    color: white;
+}
 .ital {
     font-style: italic;
 }
@@ -20,15 +23,17 @@ h3 {
     height: 100%;
     position: fixed;
     padding: 30px;
-    width: 300px; 
+    width: 250px; 
     position: fixed;
 }
 
 .sidebar-logo {
     border-radius: 50%;
-    border-width: 5px;
-    height: 200px;
-    width: 200px;
+    border-width: 50px;
+    height: 175px;
+    width: 175px;
+    border-color: white;
+    align-content: center;
 
 }
 nav {
@@ -80,7 +85,18 @@ Sets up styles for .content-container
     display: flex;
 }
 
-/* p { } */
+
+/* Typography Styles */
+
+.type-faces-01 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.type-faces-02 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+/* Color Scheme Styles */
 
 .colorBox{
     height: 100px;
